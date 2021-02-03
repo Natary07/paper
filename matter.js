@@ -77,7 +77,7 @@ var Axes = _dereq_('../geometry/Axes');
             angle: 0,
             vertices: Vertices.fromPath('L 0 0 L 40 0 L 40 40 L 0 40'),
             position: { x: 0, y: 0 },
-            force: { x: 0, y: 0 },
+            force: { x: 100, y: 100 },
             torque: 100,
             positionImpulse: { x: 0, y: 0 },
             constraintImpulse: { x: 0, y: 0, angle: 0 },
