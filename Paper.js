@@ -4,9 +4,9 @@ class Paper {
           isStatic: false,
           restitution: 0.3,
           friction: 0.5,
-          density: 0.7
+          density: 1.2
       }
-      this.body = Bodies.circle(x, y, 50, options);
+      this.body = Bodies.circle(x, y, 25, options);
       
       
       World.add(world, this.body);
@@ -17,7 +17,7 @@ class Paper {
       translate(pos.x, pos.y);
       ellipseMode(CENTER);
       fill("green");
-      ellipse(0,0, 50, 50);
+      ellipse(0,0, 25, 25);
       pop();
 
     }
