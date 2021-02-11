@@ -18,11 +18,11 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	dusbin1= new Dusbin(600,600,200,20);
-	dusbin2=new Dusbin(500,535,20,150);
-	dusbin3=new Dusbin (700, 535,20,150);
+	dusbin1= new Dusbin(600,680,200,20);
+	dusbin2=new Dusbin(500,615,20,150);
+	dusbin3=new Dusbin (700, 615,20,150);
 
-	paper1=new Paper(300,350);
+	paper1=new Paper(280,350);
 
 	ground1 = new Ground(400,height,1200,20)
 
